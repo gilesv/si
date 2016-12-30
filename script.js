@@ -24,10 +24,6 @@ window.addEventListener("load", function() {
 	}
 });
 
-function TicTac3(n){
-for(var i=1;i<=n;i++){
-console.log((i%3==0&&i%5==0)?"TIC TAC":(i%3==0)?"TIC":(i%5==0)?"TAC":i);}}
-
 // Classe infobox
 function InfoBox(element) {
 	var self = this;
