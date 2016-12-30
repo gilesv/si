@@ -1,13 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Nunito+Sans';
-
-
 body {
 	margin: 0;
 	font-family: 'Nunito Sans', sans-serif;
 	background-color: #fbfbfb;
-	font-si
 }
-
 header#cabecalho {
 	position: fixed;
 	top: 0px;
@@ -49,17 +45,17 @@ section#grade h1 {
 	text-align: center;
 }
 .periodo {
-	display: flex;
+    display: flex;
     flex-flow: row wrap;
     margin: 0 auto;
     padding: 0;
     width: 85%;
 }
 .periodo:hover{
-	background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 .disciplina {
-	flex: 1 1 auto;
+    flex: 1 1 auto;
     flex-basis: 15%;
     list-style-type: none;
     background-color: #e7ecef;
@@ -130,10 +126,10 @@ section#grade h1 {
 	-webkit-transition: height .5s;
 
 	background-color: #8d2f2b;
-	background: -webkit-linear-gradient(#8d2f2b, #4c120f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#8d2f2b, #4c120f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#8d2f2b, #4c120f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#8d2f2b, #4c120f); /* Standard syntax */
+	background: -webkit-linear-gradient(#8d2f2b, #4c120f); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8d2f2b, #4c120f); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8d2f2b, #4c120f); /* Firefox 3.6 to 15 */
+    background: linear-gradient(#8d2f2b, #4c120f); /* padrao */
 }
 .content {
 	margin: 1.8em auto 1.8em auto;
