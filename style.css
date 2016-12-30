@@ -1,0 +1,213 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito+Sans';
+
+
+body {
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: #fbfbfb;
+	font-si
+}
+
+header#cabecalho {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+	background-color: #8d2f2b;
+	padding: 12px 19px 12px 30px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.4);
+}
+header#cabecalho img {
+	display: inline-block;
+	transition: opacity 0.6s;
+}
+header#cabecalho img:hover {
+	opacity: 0.6;
+}
+div#titulos {
+	display: inline-block;
+	position: absolute;
+	margin: 10px 0px 0px 30px;
+	color: #fbfbfb;
+}
+header#cabecalho h1 {
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	font-size: 16pt;
+	line-height: 20px;
+}
+header#cabecalho h2 {
+	display: inline-block;
+	margin: 0px 0px 0px 8px;
+	font-size: 11pt;
+	font-weight: lighter;
+}
+section#grade {
+    margin: 6em 0 0 0;
+}
+section#grade h1 {
+	text-align: center;
+}
+.periodo {
+	display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+}
+.periodo:hover{
+	background-color: #f9f9f9;
+}
+.disciplina {
+	flex: 1 1 auto;
+    flex-basis: 15%;
+    list-style-type: none;
+    background-color: #e7ecef;
+    max-height: 126px;
+    padding: .9em .5em .5em .3em;
+    margin: .25em;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    opacity: 1;
+}
+.disciplina:hover {
+	opacity:0.9;
+	box-shadow: 0px 0px 7px 2px rgba(0,0,0,.4);
+    transition: box-shadow 0.2s;
+}
+.disciplina h2 {
+	font-size: 1em;
+    line-height: 0.95em;
+    margin: 0;
+}
+.disciplina h3 {
+	font-size: 0.7em;
+    font-weight: 100;
+    margin: 0;
+}
+.disciplina h4 {
+	font-size: .8em;
+    line-height: .8em;
+	margin: 0;
+}
+.disciplina.si {
+	/*background-color: #7dc2d2;*/
+    border-left: 7px solid #4ba7b1;
+}
+.disciplina.comp {
+	/*background-color: #7ed4a8;*/
+    border-left: 7px solid #34a25c;
+}
+.disciplina.mat {
+	/*background-color: #fba2a2;*/
+    border-left: 7px solid #d67070;
+}
+.disciplina.adm {
+    border-left: 7px solid #d68016;
+}
+.disciplina.outros {
+    border-left: 7px solid #c0a6c5;
+}
+.disciplina.eletiva {
+    padding-left: 8px;
+    border: 2px dashed #b9b9b9;
+}
+.disciplina.eletiva:hover {
+    cursor: default;
+    box-shadow: 0px 0px 0px 0px;
+}
+.infobox {
+	margin: 0;
+    width: 100%;
+    color: #fff;
+    height: 0px;
+    overflow: hidden;
+
+	transition: height .5s;
+	-moz-transition: height .5s;
+	-ms-transition: height .5s;
+	-o-transition: height .5s;
+	-webkit-transition: height .5s;
+
+	background-color: #8d2f2b;
+	background: -webkit-linear-gradient(#8d2f2b, #4c120f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8d2f2b, #4c120f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8d2f2b, #4c120f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8d2f2b, #4c120f); /* Standard syntax */
+}
+.content {
+	margin: 1.8em auto 1.8em auto;
+    width: 84%;
+}
+.infobox h2 {
+	font-size: 1.8em;
+	margin: 0 .4em 0 0;
+	display: inline-block;
+	line-height: .9em;
+}
+.infobox h3 {
+	margin: .5em .4em 0 0;
+    display: inline-block;
+}
+.infobox a {
+	text-decoration: underline;
+    color: #fff;
+}
+.infobox a:hover {
+	font-weight: bold;
+}
+.text-periodo {
+	font-size: 1em;
+    font-variant: small-caps;
+    display: block;
+}
+.text-id {
+	margin: 0;
+    font-size: 1.4em;
+    display: inline-block;
+    color: #c7c7c7;
+    font-weight: bold;
+}
+.tagbox {
+	margin-top: .5em;
+}
+.tag {
+	display: inline-block;
+    font-size: .7em;
+    font-weight: bold;
+    margin-right: .5em;
+    border-radius: 3px;
+    padding: .5em;
+    text-align: center;
+}
+.details {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+.details-li {
+	margin: 0;
+	font-size: 1em;
+}
+.req {
+	display: inline-block;
+    max-width: 3.5em;
+    font-size: .7em;
+    margin-right: .5em;
+    border-radius: 3px;
+    padding: .3em;
+    text-align: center;
+}
+
+div#footer {
+	margin-top: 1.2em;
+    border-top: 1px solid #ebebeb;
+    font-size: .85em;
+    text-align: center;
+    padding: 1.2em;
+}
+div#footer a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
